@@ -98,7 +98,7 @@ export default function Page() {
           
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              KEVIN'S TINT
+              KEVINS TINT
               <span className="block text-blue-400"></span>
             </h1>
 
