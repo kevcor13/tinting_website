@@ -31,7 +31,7 @@ export default function Page() {
       id:2,
       title:'Full SUV Tint',
       description:'Complete tinting for all side and rear windows of your SUV. Choose from various shades for a uniform, sleek look and maximum protection.',
-      image:'/IMG_7303.jpg',
+      image:'/SUV.jpeg',
       price:'Starting at $249',
       features:['All Side Windows','Rear Windshield','Choice of Shades','Lifetime Warranty'],
       icon: Car
@@ -69,7 +69,7 @@ export default function Page() {
 
   const handleBooking = () => {
     // Replace with your actual booking page URL
-    window.open("http://10.0.0.98:3001/1221Czt7p3i1K9mnNG_tBFoU0X09U1b8zmS2oW1kBQZQ", "_blank");
+    window.open("https://tinting-booking-client.vercel.app/1221Czt7p3i1K9mnNG_tBFoU0X09U1b8zmS2oW1kBQZQ", "_blank");
   };
 
   return (
@@ -114,14 +114,6 @@ export default function Page() {
               >
                 Book Now
                 <ExternalLink className="ml-2 w-5 h-5" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-[#101e22] border-2 border-[#101e22] text-white hover:bg-[#101e22] px-8 py-4 text-lg rounded-xl backdrop-blur-sm"
-              >
-                <Phone className="mr-2 w-5 h-5" />
-                Call Us
               </Button>
             </div>
 
